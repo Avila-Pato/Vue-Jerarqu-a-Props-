@@ -14,9 +14,6 @@ import Navbar from './components/NavBarSide.vue';
 
 <style>
 .main-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 10px;
 }
 </style>
