@@ -1,4 +1,5 @@
 <!-- src/components/Card.vue -->
+ <!-- HIJO  -->
 <template>
   <Card style="width: 25rem; overflow: hidden">
     <template #header>

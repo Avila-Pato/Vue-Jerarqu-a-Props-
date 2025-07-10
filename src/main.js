@@ -4,6 +4,12 @@ import PrimeVue from 'primevue/config';
 import Aura from '@primeuix/themes/aura';
 import 'primeicons/primeicons.css';
 import { router } from './router/routes';
+import ToastService from 'primevue/toastservice';
+import { Toast } from 'primevue';
+import InputText from 'primevue/inputtext';
+import Button from 'primevue/button';
+import Message from 'primevue/message';
+
 
 import App from './App.vue';
 
@@ -21,6 +27,13 @@ theme: {
  });
  app.use(router);
  app.mount('#app');
+ app.use(ToastService);
+ 
+ 
+app.component('Toast', Toast);
+app.component('InputText', InputText);
+app.component('Button', Button);
+app.component('Message', Message);
 
   // preset: Aura,
   //   options: {
